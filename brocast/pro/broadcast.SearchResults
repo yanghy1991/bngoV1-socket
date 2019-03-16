@@ -1,0 +1,12 @@
+---- buffer Matches (12 in 2 files) ----
+Bcast_client.c:    char buffer[1024];
+Bcast_client.c:    ifc.ifc_len = sizeof(buffer);
+Bcast_client.c:    ifc.ifc_buf = buffer;
+Bcast_client.c:                count = recvfrom(sock, buffer, 1024, 0,
+Bcast_client.c:                printf("\trecvmsg is %s\n", buffer);
+Bcast_client.c:                if (strstr(buffer, IP_FOUND_ACK))
+Bcast_server.c:    char buffer[1024];
+Bcast_server.c:                count = recvfrom(sock, buffer, 1024, 0,
+Bcast_server.c:                if (strstr(buffer, IP_FOUND))
+Bcast_server.c:                    memcpy(buffer, IP_FOUND_ACK, strlen(IP_FOUND_ACK) + 1);
+Bcast_server.c:                    count = sendto(sock, buffer, strlen(buffer), 0,
