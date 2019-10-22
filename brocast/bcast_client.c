@@ -1,7 +1,7 @@
 /*********************************************************************
  * Filename: bcast_client.c
  * Description:广播客户端代码
- * Author: Eric(wongpz@foxmail.com)
+ * Author: yhy
  * Date: 2012-9-14
  ********************************************************************/
 #include<stdio.h>
