@@ -1,7 +1,7 @@
 /*********************************************************************
  * Filename: bcast_server.c
  * Description: 广播服务器端代码
- * Author: Eric(wongpz@foxmail.com)
+ * Author: yhy
  * Date: 2012-9-14
  ********************************************************************/
 #include <stdio.h>
